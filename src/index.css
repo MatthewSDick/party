@@ -9,4 +9,54 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url('./components/images/background.png');
+}
+
+h1 {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+article {
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 80% 20%;
+  display: grid;
+  align-items: center;
+  margin: 1rem;
+  width: 35rem;
+  background-color: khaki;
+}
+
+.plot {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 12px;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.main-image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.movie-name {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.top {
+  background-color: lightcoral;
+  padding: 1rem 1rem 1rem 1rem;
 }
