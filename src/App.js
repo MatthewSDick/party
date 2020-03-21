@@ -63,10 +63,12 @@ class App extends Component {
     return (
       <>
         <Top />
-        <input onChange={this.trackYear} type="text" className="year-input" />
-        <button className="update-year" onClick={this.updateYear}>
-          Change year
-        </button>
+        <div className="pick-year">
+          <input onChange={this.trackYear} type="text" className="year-input" />
+          <button className="update-year" onClick={this.updateYear}>
+            Change year
+          </button>
+        </div>
 
         <main>
           {this.state.movieItems.map(item => {

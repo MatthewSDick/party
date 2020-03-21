@@ -60,3 +60,20 @@ h1 {
   background-color: lightcoral;
   padding: 1rem 1rem 1rem 1rem;
 }
+
+.year-input {
+  height: 1rem;
+  width: 5rem;
+}
+
+.update-year {
+  height: 1.3rem;
+  width: 5rem;
+  background-color: lightgray;
+}
+
+.pick-year {
+  text-align: center;
+  background-color: lightseagreen;
+  padding: 1rem 1rem 1rem 1rem;
+}
