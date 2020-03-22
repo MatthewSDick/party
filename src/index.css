@@ -77,3 +77,15 @@ h1 {
   background-color: lightseagreen;
   padding: 1rem 1rem 1rem 1rem;
 }
+
+.release-date {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  margin: 6rem 0rem 0rem 0rem;
+}
+
+main {
+}
